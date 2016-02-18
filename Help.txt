@@ -1,0 +1,1 @@
+If the project doesn't work, rename the home folder from KnowYourCustomer to Wth

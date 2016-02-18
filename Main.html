@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<script src="/sap/ui5/1/resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.ui.commons,sap.ui.table,sap.ui.ux3,sap.viz"
+				data-sap-ui-theme="sap_goldreflection">
+		</script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+	    <script src="d3pie.min.js"></script>
+	    <script src="d3pie.js"></script>
+	    <script src="graph.js"></script>
+	    <script src="canvas.js"></script>
+	    <script src="common.js"></script>
+	    <script src="json-controller.js"></script>
+	   <script src="Chart.js"></script>
+	   <script type="text/JavaScript" src="jsDraw2DX.js"></script>
+		<!-- add sap.ui.table,sap.ui.ux3 and/or other libraries to 'data-sap-ui-libs' if required -->
+	    <link type="text/css" rel="stylesheet" href="style.css" />
+	    <link type="text/css" rel="stylesheet" href="style2.css"/>
+		<script>
+		
+		//jQuery.sap.registerModulePath("Wth", "Client.sf.hhgfj");
+
+		var windowWidth = $(window).width();
+		
+		windowWidth -= 40;
+		
+		if ( windowWidth < 960 ) {
+			windowWidth = 960;
+		}
+		
+		var offset = (windowWidth - 960 ) / 2;
+		
+		var actualWidth = windowWidth - (2 * offset);
+		
+		function loadView() {
+    		var view = sap.ui.view({id:"MainViewId", viewName:"Client.openingPage", type:sap.ui.core.mvc.ViewType.JS});
+    		view.placeAt("content");
+    		
+		}
+
+        sap.ui.localResources("Client");
+
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application" onload="loadView()">
+		<div id="content"></div>
+		
+	</body>
+</html>

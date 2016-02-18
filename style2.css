@@ -1,0 +1,105 @@
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.overlayHor1 {
+    margin-left: 12px;
+    margin-top: 40px;
+}
+
+.overlayFavLabel{
+    margin-right: 100px;
+    margin-left: 67px;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.overlayTrendLabel{
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.overlayImage{
+    margin-right:20px;
+}
+
+.overlayPlusImage{
+    margin-top : 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.overlayLeftArrow{
+    margin-left:40px;
+    margin-right: 205px;
+}
+
+.overlayRightArrow{
+    margin-left:450px;
+    margin-right:20px;
+}
+
+.overLayHor2{
+    margin-left: 20px;
+}
+
+.thodaGap {
+    margin : 3px;
+}
+
+.aakhriNatak{
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 15px;
+}

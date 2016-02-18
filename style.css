@@ -1,0 +1,593 @@
+.customerList {
+	height:200px;
+	border-bottom: 1px solid #000000;
+}
+
+.customerList:hover {
+	height:200px;
+	overflow:auto;
+	border-bottom: 1px solid #000000;
+}
+.columnHeaderLabel {
+	font-weight:bold;
+	font-family:Arial;
+	font-size:11px;
+}
+.campaignColumnHeader{
+height:22px;
+padding-top: 8px;
+}
+.journeyRowlabel{ 
+	font-family:Arial;
+	font-size:11px;
+	padding-top:2px;
+
+}
+.selectedMatrixRow {
+	background-color:#E4F3FA;
+	border-top:1px solid #E7E5E2;
+	border-bottom:1px solid #E7E5E2;
+}
+.highlightedMatrixRow {
+	border-top:1px solid #E7E5E2;
+	border-bottom:1px solid #E7E5E2;
+	cursor:pointer;
+}
+.normalMatrixRow {
+	border-top:1px solid #E7E5E2;
+	border-bottom:1px solid #E7E5E2;
+}
+
+.consumerListMatrix{
+    border-bottom: 1px solid #000000;
+    
+}
+
+
+body {
+    background: url(Client/images/new2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.titleLayout{
+    height : 40px;
+    
+    border-bottom :1px solid #000000;
+    
+}
+
+.titleLogo{
+    height: 38px;
+    width:  150px;
+}
+
+.linesLogo{
+    width:60px;
+    height:25px;
+}
+.sidePanel{
+    height : 700px;
+    width : 200px;
+    background-color : black;
+}
+.rightSide{
+    height : 700px;
+     
+}
+
+.profileHorizontal {
+  text-align: center;
+    margin-left: 50px;
+    width: 600px;
+  }
+  
+.IconsLogo{
+    height : 80px;
+    width : 90px;
+    margin-left : 45px;
+    margin-top : 45px;
+}
+.IconLogo:active{
+    border-color: black;
+}
+
+.IconLabel{
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 20px;
+  color: darkgrey;
+  margin-left: 46px;
+}
+.BrandLabel{
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 20px;
+  color: darkgrey;
+  margin-left: 64px;
+  margin-top : 5px;  
+}
+
+.reportLabel{
+   font-size: 20px;
+  font-style: bold;
+  font-weight: 20px;
+  color: darkgrey;
+  margin-left: 56px;
+  margin-top : 9px;   
+    
+}
+.customerInsightsLabel{
+  padding-top : 30px;
+  padding-bottom : 20px;
+  font-size: 50px;
+  font-style: bold;
+  font-weight: 50px;
+  color: black;
+  margin-top : 30px; 
+}
+.insightsLayout{
+   margin-left: 220px; 
+   }
+.line{
+    width: 170px;
+    margin-top: 70px;
+}
+.retailLogo{
+    margin-left: 363px;
+}
+.kycLogo{
+    margin-left: 1217px;
+}
+.homeBottom{
+    margin-top:138px;
+    height:200px;
+    background-color:#4B5A62;
+}
+.bottomIcons{
+    margin-left:60px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.bottom2Icons{
+    margin-left:100px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.NoLabel{
+    padding-top:30px;
+    padding-bottom:10px;
+    font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: black;
+  margin-top : 30px; 
+    
+}
+.bottomLabels{
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 20px;
+  color: black;
+  margin-top : 3px; 
+}
+.productTopLabels{
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 20px;
+  color: black;
+  margin-top : 10px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+}
+.topProducts{
+    width: 615px;
+    margin-left: 50px;
+    border-right: 2px solid #000000;
+    
+}
+.bottomProducts{
+    width: 615px;
+    margin-left: 50px;
+   
+}
+.brandSpace{
+    margin-bottom:10px;
+}
+.criticalProduct{
+     border-bottom: 2px solid #000000;
+}
+.inventoryLink{
+  font-size: 20px;
+  color:#ffffff;
+  font-style: bold;
+  font-weight: 20px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  background-color:#00A58D;
+  margin-left:580px;
+  margin-top:10px;
+}
+.assignLink{
+    font-size: 20px;
+  color:#ffffff;
+  font-style: bold;
+  font-weight: 20px;
+  padding-top:5px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  background-color:#00A58D;
+  margin-left:420px;
+  margin-top:2px;
+}
+.productBox{
+    margin-left:60px;
+    margin-bottom: 50px;
+    height:150px;
+    width:250px;
+    background-color:#3E739D;
+}
+.productBox:hover{
+    background-color:#ffffff;
+}
+.revenueNoLabel{
+     padding-top:30px;
+    padding-bottom:10px;
+    font-size: 30px;
+  font-style: bold;
+  font-weight: 40px;
+  color: white;
+  margin-top : 7px; 
+  margin-left:30px;
+    
+}
+
+.revenueLbl{
+    padding-bottom:10px;
+    font-size: 10px;
+  font-style: bold;
+  font-weight: 40px;
+  color: black;
+  margin-top : 1px; 
+  margin-left:50px;
+    
+}
+.boxIcons{
+    margin-left:10px;
+    margin-top:20px;
+}
+.brandOverlay {
+    position:center;
+    width:1000px;
+    height:650px;
+    margin-top:80px;
+    margin-left:400px;
+    border: 0px solid #ffffff;
+    background-color:#ffffff;
+}
+.sapUiUx3OverlayOverlay {
+color: #000000;
+background-color: #00A58D;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+opacity: .93;
+border: 1px solid #00A58D;
+}
+.overlaybox{
+    margin-top:30px;
+    margin-left:15px;
+    width:235px;
+    height:130px;
+    background-color:#0090D9;
+}
+.likeLogo{
+    margin-top:13px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+.overlayLabel{
+    font-size: 15px;
+  font-style: bold;
+  color: white;
+  margin-top : 35px;
+  margin-left: 5px;
+  
+}
+.overlayLabel1{
+    font-size: 15px;
+  font-style: bold;
+  color: Black;
+  margin-top : 35px;
+  margin-left: 20px;
+  margin-bottom:10px;
+  
+}
+.slider{
+    margin-left: 20px;
+  margin-bottom:10px;
+}
+.dropdown{
+    margin-left: 90px;
+  margin-bottom:10px;
+}
+.dropLabel{
+    margin-left: 90px;
+    margin-top : 35px;
+    margin-bottom:10px;
+    font-size: 15px;
+  font-style: bold;
+  color: Black;
+}
+.largeLabel{
+    padding-top:10px;
+    padding-down:10px;
+    margin-top:10px;
+    margin-left:30px;
+     font-size: 30px;
+  font-style: bold;
+  color: white;
+ 
+}
+.overlayboxbought{
+    margin-top:30px;
+    margin-left:15px;
+    width:235px;
+    height:130px;
+    background-color:#3E739D;
+}
+.overlayboxnever{
+    margin-top:30px;
+    margin-left:15px;
+    width:235px;
+    height:130px;
+    background-color:#222A38;
+}
+.simple{
+   font-size: 15px;
+  font-style: bold;
+  color: white; 
+}
+.bigLabel{
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    margin-left:200px;
+   font-size: 26px;
+  font-style: bold;
+  color: black;
+}
+.smallLabel{
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    margin-left:200px;
+   font-size: 18px;
+  font-style: bold;
+  color: black;
+}
+.horzOverlay{
+    margin-left:70px;
+   
+}
+.verOverlay{
+    padding-right:70px;
+    height:600px;
+    border-right:1px solid #000000;
+}
+div#UIComp_0{
+    display:block;
+}
+.graph{
+    display:block;
+}
+.html{
+    padding-top:70px;
+    padding-bottom:60px;
+}
+.silverBox{
+    margin-left:60px;
+    margin-bottom: 50px;
+    height:150px;
+    width:250px;
+    background-color:#0090D9;
+    
+}
+.silverBox:hover{
+    background-color:#ffffff;
+    
+}
+.goldBox{
+    margin-left:60px;
+    margin-bottom: 50px;
+    height:150px;
+    width:250px;
+    background-color:#3E739D;
+}
+.goldBox:hover{
+    background-color:#ffffff;
+    
+}
+.platinumBox{
+    margin-top:300px;
+    margin-left:60px;
+    margin-bottom: 50px;
+    height:150px;
+    width:250px;
+    background-color:#F56954;
+}
+.platinumBox:hover{
+    background-color:#ffffff;
+    
+}
+.titaniumBox{
+    margin-top:300px;
+    margin-left:60px;
+    margin-bottom: 50px;
+    height:150px;
+    width:250px;
+    background-color:#222A38;
+    
+}
+.titaniumBox:hover{
+    background-color:#ffffff;
+    
+}
+.silverLabels{
+  padding-top:50px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: white;
+  margin-top : 7px; 
+  margin-left:45px;
+}
+.silverLabels1{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: #0090D9;
+  margin-left:80px;
+}
+.goldLabels{
+  padding-top:50px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: white;
+  margin-top : 7px; 
+  margin-left:60px;
+}
+.goldLabels1{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: #3E739D;
+  margin-top : 7px; 
+  margin-left:80px;
+}
+.platinumLabels{
+  padding-top:50px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: white;
+  margin-top : 7px; 
+  margin-left:20px;
+}
+.platinumLabels1{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: #F56954;
+  margin-top : 7px; 
+  margin-left:80px;
+}
+.titaniumLabels{
+  padding-top:50px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: white;
+  margin-top : 7px; 
+  margin-left:20px;
+}
+.titaniumLabels1{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 40px;
+  color: #222A38;
+  margin-top : 7px; 
+  margin-left:80px;
+}
+
+.DimensionLabel{
+    margin-left:80px;
+    font-style:bold;
+    font-size:15px;
+    margin-top:3px;
+}
+
+.reportLayout{
+    margin-top:20px;
+}
+.reportDrop{
+    margin-left:7px;
+}
+.reportButton{
+    margin-left:80px;
+   
+}
+.openingPage{
+    width : 1600px;
+    height:780px;
+}
+.customerOverlayLike{
+   width: 940px;
+   border-bottom :1px solid #000000; 
+}
+.customerOverlayName{
+    margin-top:19px;
+    margin-left:10px;
+    margin-right:40px;
+    padding-bottom:30px;
+    font-style:bold;
+    font-size:25px;
+}
+.inStoreLabel{
+    margin-top:20px;
+    margin-right:300px;
+    font-style:bold;
+    font-size:17px;
+}
+.inStoreLogo{
+    margin-top:19px;
+}
+.carouselLikes{
+    margin-top:13px
+}
+.brandImages{
+    margin-right:20px;
+}
+.inStoreLikeLayout{
+    width:940px;
+    height:100px;
+    border-bottom:1px solid #000000;
+}
+.inStorelikeLogo{
+    margin-left:300px;
+}
+.noLikesLabel{
+    font-style:bold;
+    font-size:17px;
+    margin-left:380px;
+    margin-top:30px;
+}
+.discountLabels{
+    font-style:bold;
+    font-size:17px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.UpdateButton{
+    margin-left:1000px;
+}
