@@ -16,4 +16,9 @@ Built using Eclipse/HANA SAPUI5 Application project.
 
 __**Running the App**__  
 Install the plugin into eclipse. Copy this link into the Install New Software option - https://tools.hana.ondemand.com/mars/.  
-After installation is done, create an SAPUI5 application and import the project into the WebContent directory of the project. Everything apart from the Backend calls will work, the AJAX calls need to be replaced by existing backend calls.
+After installation is done, create an SAPUI5 application and import the project into the WebContent directory of the project. Everything apart from the Backend calls will work, the AJAX calls need to be replaced by existing backend calls.  
+
+If you try to run the app by some other way, change one line in Main.html file -  
+https://openui5.hana.ondemand.com/resources/sap-ui-core.js instead of resources/sap-ui.core.js  
+or  
+https://sapui5.hana.ondemand.com/resources/sap-ui-core.js instead of resources/sap-ui.core.js
