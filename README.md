@@ -15,5 +15,5 @@ Built using Eclipse/HANA SAPUI5 Application project.
 .xsaccess and .xsapp files are required for this project to run, which have been renamed in github as default.xsaccess and default.xsapp
 
 __**Running the App**__  
-Install the ui5 plugin into the eclipse. Copy this link into the Install New Software - https://tools.hana.ondemand.com/mars/.  
-Create an SAPUI5 application and import the project. Everything apart from the Backend calls will work, the AJAX calls will have to be changed to make it work properly.
+Install the plugin into eclipse. Copy this link into the Install New Software option - https://tools.hana.ondemand.com/mars/.  
+After installation is done, create an SAPUI5 application and import the project into the WebContent directory of the project. Everything apart from the Backend calls will work, the AJAX calls need to be replaced by existing backend calls.
